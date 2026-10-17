@@ -1,0 +1,15 @@
+{
+  "_comment": "Look-only workflow: photo in, animated clip out.",
+  "image": [
+    "1",
+    "image"
+  ],
+  "seconds": [
+    "2",
+    "seconds"
+  ],
+  "motion": [
+    "2",
+    "motion"
+  ]
+}

@@ -9,43 +9,49 @@
 <body>
   <header>
     <h1>OpenFX</h1>
-    <p>One-tap video effects. Open source, open weights, running on your own GPU.</p>
+    <p>Hundreds of video effects. Open source, open weights, running on your own GPU.</p>
   </header>
 
   <main>
-    <section class="step">
-      <h2><span>1</span> Pick a photo</h2>
+    <section class="panel source">
       <label class="drop" id="drop">
-        <input type="file" id="file" accept="image/png,image/jpeg,image/webp" hidden>
-        <img id="preview" alt="" hidden>
-        <span id="drop-hint">Drop an image here or click to choose</span>
+        <input type="file" id="file" accept="image/png,image/jpeg,image/webp,video/mp4,video/quicktime,video/webm" hidden>
+        <img id="preview-img" alt="" hidden>
+        <video id="preview-video" muted loop playsinline autoplay hidden></video>
+        <span id="drop-hint">Drop a photo or video, or click to choose</span>
       </label>
-    </section>
 
-    <section class="step">
-      <h2><span>2</span> Choose an effect</h2>
-      <div class="grid" id="effects"></div>
-      <input type="text" id="detail" maxlength="300" placeholder="Optional: add a detail, e.g. &quot;with purple sparks&quot;">
-    </section>
-
-    <section class="step">
-      <h2><span>3</span> Make it</h2>
-      <button id="go" disabled>Generate</button>
-      <p id="status" role="status"></p>
-      <div class="result" id="result" hidden>
-        <video id="video" controls loop playsinline></video>
-        <div class="actions">
-          <a id="download" download>Download</a>
-          <button id="copy" type="button">Copy link</button>
+      <div class="selection">
+        <h2>Your recipe</h2>
+        <div id="recipe" class="recipe"><p class="muted">Pick one AI effect and up to 4 Looks.</p></div>
+        <input type="text" id="detail" maxlength="300" placeholder="Optional detail for the AI effect, e.g. &quot;with purple sparks&quot;">
+        <button id="go" disabled>Generate</button>
+        <p id="status" role="status"></p>
+        <div class="result" id="result" hidden>
+          <video id="video" controls loop playsinline></video>
+          <div class="actions">
+            <a id="download" download>Download</a>
+            <button id="copy" type="button">Copy link</button>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section class="browser">
+      <div class="search">
+        <input type="search" id="search" placeholder="Search effects, or describe a vibe: &quot;90s home video&quot;, &quot;dreamy&quot;, &quot;on fire&quot;" autocomplete="off">
+        <span id="count" class="muted"></span>
+      </div>
+      <nav id="chips" class="chips" aria-label="Categories"></nav>
+      <div id="sections"></div>
     </section>
   </main>
 
   <footer>
-    Built with ComfyUI, LTX and the Comfy SDK. Every effect is a workflow file you can fork.
+    Built with ComfyUI, LTX and the Comfy SDK. Every effect is a file you can fork.
     <a href="https://github.com/rutanaus000-sys/openfx">Source on GitHub</a> · #OpenSourceHiggsfield
   </footer>
+  <script src="/static/search.js"></script>
   <script src="/static/app.js"></script>
 </body>
 </html>

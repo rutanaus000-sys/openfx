@@ -1,0 +1,76 @@
+{
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "placeholder.mp4"
+    },
+    "_meta": {
+      "title": "Load Video"
+    }
+  },
+  "2": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Get Video Components"
+    }
+  },
+  "openfx_looks": {
+    "class_type": "OpenFXLookStack",
+    "inputs": {
+      "images": [
+        "2",
+        0
+      ],
+      "stack": "[]",
+      "seed": 0,
+      "fps": [
+        "2",
+        2
+      ]
+    },
+    "_meta": {
+      "title": "OpenFX Look Stack"
+    }
+  },
+  "4": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "openfx_looks",
+        0
+      ],
+      "audio": [
+        "2",
+        1
+      ],
+      "fps": [
+        "2",
+        2
+      ]
+    },
+    "_meta": {
+      "title": "Create Video"
+    }
+  },
+  "5": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "4",
+        0
+      ],
+      "filename_prefix": "video/openfx",
+      "format": "mp4",
+      "codec": "h264"
+    },
+    "_meta": {
+      "title": "Save Video"
+    }
+  }
+}

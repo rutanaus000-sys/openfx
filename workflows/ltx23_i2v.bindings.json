@@ -31,5 +31,15 @@
   "enhance_prompt": [
     "320:328",
     "value"
-  ]
+  ],
+  "frames": {
+    "from": [
+      "320:315",
+      0
+    ],
+    "into": [
+      "320:310",
+      "images"
+    ]
+  }
 }
