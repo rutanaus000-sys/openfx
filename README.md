@@ -1,6 +1,6 @@
 # OpenFX
 
-**One-tap viral video effects, fully open source.** Upload a photo, pick an effect (disintegrate, set on fire, turn to stone, deep freeze, melt, hologram), and get a short video ready to share.
+**Hundreds of video effects, fully open source.** Upload a photo or video, pick an AI effect (disintegrate, set on fire, turn to stone, hologram...) and stack up to four Looks (VHS, Super 8, teal & orange, glitch, halftone...), and get a short video ready to share.
 
 OpenFX is an open rebuild of the closed "effects" apps on commercial AI video platforms. It runs on open-weights models (LTX video) through ComfyUI, on your own GPU, for free.
 
@@ -22,6 +22,13 @@ Every effect is a folder with one `manifest.json`:
 
 To add an effect, copy a folder under `effects/`, change the prompt and settings, and restart. It appears in the app. To create a whole new kind of effect, export any ComfyUI workflow in API format into `workflows/`, add a `*.bindings.json` that says which node takes the image, prompt and size, and point a manifest at it. Pull requests with new effects are welcome.
 
+## Two kinds of effect
+
+- **AI effects** generate new motion and content with LTX-2.3 image-to-video (fire, disintegration, materials, sci-fi). About 1-2 minutes per clip on a 12 GB card.
+- **Looks** are 116 exact, deterministic filters from our ComfyUI node pack, [`comfyui_openfx`](comfyui_openfx/): color grades, film stocks, VHS and CRT, glitch, lens, blur, distortion, time and trails, layouts and art styles. They take seconds, stack on top of AI effects, and also work on your own videos.
+
+![All 116 Looks](docs/looks.jpg)
+
 ## How it works
 
 ```
@@ -38,8 +45,9 @@ Browser ──> OpenFX server (FastAPI) ──Comfy SDK──> Comfy API proxy �
 You need an NVIDIA GPU with 12 GB+ of VRAM. It's tested on an RTX 5070 (12 GB): a 4-second 512x768 clip takes about 1.5 minutes.
 
 1. **Install ComfyUI** and the LTX-2.3 image-to-video models. Use the official LTX-2.3 image-to-video template in ComfyUI's template browser, which offers to download the models. RTX 50-series cards need a PyTorch build for CUDA 12.8 or newer.
-2. **Start ComfyUI** on the default port (`http://127.0.0.1:8188`).
-3. **Start OpenFX:**
+2. **Add the Look nodes:** link or copy `comfyui_openfx/` into `ComfyUI/custom_nodes/` (the Windows script does this for you).
+3. **Start ComfyUI** on the default port (`http://127.0.0.1:8188`).
+4. **Start OpenFX:**
 
    Windows:
    ```bat
@@ -53,7 +61,7 @@ You need an NVIDIA GPU with 12 GB+ of VRAM. It's tested on an RTX 5070 (12 GB): 
    comfy-api-proxy run &                   # serves the v2 API on 127.0.0.1:8189
    COMFY_BASE_URL=http://127.0.0.1:8189 python -m openfx
    ```
-4. Open **http://127.0.0.1:7860**.
+5. Open **http://127.0.0.1:7860**.
 
 ## Project layout
 
@@ -62,7 +70,9 @@ You need an NVIDIA GPU with 12 GB+ of VRAM. It's tested on an RTX 5070 (12 GB): 
 | `effects/<id>/manifest.json` | One effect: prompt, defaults, base workflow |
 | `workflows/*_api.json` | ComfyUI workflows in API format |
 | `workflows/*.bindings.json` | Which node takes the image, prompt, width, height and length |
+| `comfyui_openfx/` | ComfyUI node pack: 116 Looks, Look Stack and Still To Clip nodes |
 | `openfx/` | Server, effect registry and the Comfy SDK runner |
+| `web/looks.json` | Look catalog, regenerate with `python -m comfyui_openfx.catalog > web/looks.json` |
 | `web/` | The web app |
 
 ## License

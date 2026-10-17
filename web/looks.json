@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "black-and-white",
+    "name": "Black & White",
+    "category": "color",
+    "description": "Rich monochrome with punchy contrast, like a red-filtered B&W film stock.",
+    "tags": [
+      "monochrome",
+      "classic",
+      "noir"
+    ],
+    "synonyms": [
+      "bw",
+      "b&w",
+      "grayscale",
+      "greyscale",
+      "monochrome",
+      "noir"
+    ],
+    "animated": false
+  },
+  {
+    "id": "sepia",
+    "name": "Sepia",
+    "category": "color",
+    "description": "Warm brown antique toning, like an old photographic print.",
+    "tags": [
+      "vintage",
+      "warm",
+      "antique"
+    ],
+    "synonyms": [
+      "old photo",
+      "brown",
+      "antique"
+    ],
+    "animated": false
+  },
+  {
+    "id": "duotone",
+    "name": "Duotone",
+    "category": "color",
+    "description": "Two-colour gradient map from deep navy-teal shadows to soft peach highlights.",
+    "tags": [
+      "graphic",
+      "poster",
+      "gradient-map"
+    ],
+    "synonyms": [
+      "two tone",
+      "gradient map",
+      "spotify"
+    ],
+    "animated": false
+  },
+  {
+    "id": "tritone",
+    "name": "Tritone",
+    "category": "color",
+    "description": "Three-colour map: plum shadows, rose mid-tones and golden highlights.",
+    "tags": [
+      "graphic",
+      "gradient-map",
+      "vibrant"
+    ],
+    "synonyms": [
+      "three tone",
+      "gradient map"
+    ],
+    "animated": false
+  },
+  {
+    "id": "monochrome-tint",
+    "name": "Monochrome Tint",
+    "category": "color",
+    "description": "Single-hue cyanotype-style tint from deep blue to paper white.",
+    "tags": [
+      "tint",
+      "blue",
+      "cyanotype"
+    ],
+    "synonyms": [
+      "cyanotype",
+      "blue tint",
+      "tinted"
+    ],
+    "animated": false
+  },
+  {
+    "id": "split-toning",
+    "name": "Split Toning",
+    "category": "color",
+    "description": "Cool teal shadows and warm golden highlights, keeping the original colours.",
+    "tags": [
+      "grade",
+      "cinematic"
+    ],
+    "synonyms": [
+      "split tone",
+      "toning"
+    ],
+    "animated": false
+  },
+  {
+    "id": "bleach-bypass",
+    "name": "Bleach Bypass",
+    "category": "color",
+    "description": "Desaturated, high-contrast silver-retention look with gritty metallic tones.",
+    "tags": [
+      "gritty",
+      "desaturated",
+      "war-film"
+    ],
+    "synonyms": [
+      "silver retention",
+      "skip bleach",
+      "saving private ryan"
+    ],
+    "animated": false
+  },
+  {
+    "id": "cross-processing",
+    "name": "Cross Processing",
+    "category": "color",
+    "description": "Slide film in negative chemistry: punchy contrast, yellow-green highlights and cyan shadows.",
+    "tags": [
+      "lomo",
+      "vintage",
+      "vibrant"
+    ],
+    "synonyms": [
+      "xpro",
+      "cross process",
+      "lomo"
+    ],
+    "animated": false
+  },
+  {
+    "id": "teal-orange",
+    "name": "Teal & Orange",
+    "category": "color",
+    "description": "Blockbuster grade: warm skin and highlights against teal shadows.",
+    "tags": [
+      "cinematic",
+      "blockbuster",
+      "grade"
+    ],
+    "synonyms": [
+      "orange and teal",
+      "hollywood",
+      "movie look"
+    ],
+    "animated": false
+  },
+  {
+    "id": "day-for-night",
+    "name": "Day for Night",
+    "category": "color",
+    "description": "Turns daylight into moonlit night: dark, desaturated and blue.",
+    "tags": [
+      "night",
+      "blue",
+      "moonlight"
+    ],
+    "synonyms": [
+      "night",
+      "moonlight",
+      "american night"
+    ],
+    "animated": false
+  },
+  {
+    "id": "infrared",
+    "name": "Infrared",
+    "category": "color",
+    "description": "False-colour infrared film: foliage glows pink-red, skies turn deep blue.",
+    "tags": [
+      "surreal",
+      "false-color",
+      "aerochrome"
+    ],
+    "synonyms": [
+      "aerochrome",
+      "ir",
+      "false colour"
+    ],
+    "animated": false
+  },
+  {
+    "id": "thermal",
+    "name": "Thermal",
+    "category": "color",
+    "description": "Heat-camera palette: cold purples through hot yellow-white.",
+    "tags": [
+      "heatmap",
+      "predator",
+      "sci-fi"
+    ],
+    "synonyms": [
+      "heat vision",
+      "infrared camera",
+      "flir",
+      "heat map"
+    ],
+    "animated": false
+  },
+  {
+    "id": "invert",
+    "name": "Invert",
+    "category": "color",
+    "description": "Photographic negative.",
+    "tags": [
+      "negative"
+    ],
+    "synonyms": [
+      "negative",
+      "inverse"
+    ],
+    "animated": false
+  },
+  {
+    "id": "solarize",
+    "name": "Solarize",
+    "category": "color",
+    "description": "Sabattier effect: highlights fold back into dark, surreal tones.",
+    "tags": [
+      "surreal",
+      "psychedelic",
+      "darkroom"
+    ],
+    "synonyms": [
+      "sabattier",
+      "man ray"
+    ],
+    "animated": false
+  },
+  {
+    "id": "posterize",
+    "name": "Posterize",
+    "category": "color",
+    "description": "Flat bands of colour, like a screen print.",
+    "tags": [
+      "graphic",
+      "pop-art"
+    ],
+    "synonyms": [
+      "poster",
+      "banding",
+      "pop art"
+    ],
+    "animated": false
+  },
+  {
+    "id": "hue-cycle",
+    "name": "Hue Cycle",
+    "category": "color",
+    "description": "Colours rotate continuously around the colour wheel.",
+    "tags": [
+      "psychedelic",
+      "rainbow",
+      "trippy"
+    ],
+    "synonyms": [
+      "rainbow",
+      "color cycle",
+      "hue shift",
+      "psychedelic"
+    ],
+    "animated": true
+  },
+  {
+    "id": "crushed-blacks",
+    "name": "Crushed Blacks",
+    "category": "color",
+    "description": "Deep, inky shadows with rich contrast.",
+    "tags": [
+      "contrast",
+      "moody"
+    ],
+    "synonyms": [
+      "deep blacks",
+      "high contrast",
+      "moody"
+    ],
+    "animated": false
+  },
+  {
+    "id": "faded-blacks",
+    "name": "Faded Blacks",
+    "category": "color",
+    "description": "Matte, lifted shadows and soft highlights, like a faded print.",
+    "tags": [
+      "matte",
+      "vintage",
+      "instagram"
+    ],
+    "synonyms": [
+      "matte",
+      "faded",
+      "washed out",
+      "lifted blacks"
+    ],
+    "animated": false
+  },
+  {
+    "id": "selective-color",
+    "name": "Selective Color",
+    "category": "color",
+    "description": "Everything turns black and white except the reds.",
+    "tags": [
+      "color-splash",
+      "red"
+    ],
+    "synonyms": [
+      "color splash",
+      "sin city",
+      "keep red"
+    ],
+    "animated": false
+  },
+  {
+    "id": "film-35mm",
+    "name": "35mm Film",
+    "category": "film",
+    "description": "Cinematic 35mm print: gentle S-curve, warm highlights, fine moving grain and a soft red halation glow.",
+    "tags": [
+      "cinematic",
+      "analog",
+      "grain"
+    ],
+    "synonyms": [
+      "35mm",
+      "film look",
+      "kodak",
+      "cinematic film",
+      "analog"
+    ],
+    "animated": true
+  },
+  {
+    "id": "film-16mm",
+    "name": "16mm Film",
+    "category": "film",
+    "description": "Indie 16mm: chunky grain, softer detail, faded warmth, gentle weave and flicker.",
+    "tags": [
+      "indie",
+      "analog",
+      "grain",
+      "documentary"
+    ],
+    "synonyms": [
+      "16mm",
+      "bolex",
+      "indie film"
+    ],
+    "animated": true
+  },
+  {
+    "id": "super-8",
+    "name": "Super 8",
+    "category": "film",
+    "description": "Home-movie Super 8: heavy grain, flicker, gate weave, warm faded colour, soft focus and dark corners.",
+    "tags": [
+      "home-movie",
+      "vintage",
+      "nostalgic",
+      "70s"
+    ],
+    "synonyms": [
+      "super8",
+      "8mm",
+      "home movie",
+      "vintage film",
+      "70s"
+    ],
+    "animated": true
+  },
+  {
+    "id": "silent-film",
+    "name": "Silent Film",
+    "category": "film",
+    "description": "1920s silent picture: flickering black and white, scratches, dust, weave and heavy vignette.",
+    "tags": [
+      "1920s",
+      "black-and-white",
+      "vintage",
+      "chaplin"
+    ],
+    "synonyms": [
+      "old movie",
+      "1920s",
+      "chaplin",
+      "nickelodeon",
+      "silent movie"
+    ],
+    "animated": true
+  },
+  {
+    "id": "film-grain",
+    "name": "Film Grain",
+    "category": "film",
+    "description": "Organic, moving film grain that is strongest in the mid-tones.",
+    "tags": [
+      "grain",
+      "texture",
+      "analog"
+    ],
+    "synonyms": [
+      "grain",
+      "noise",
+      "grainy"
+    ],
+    "animated": true
+  },
+  {
+    "id": "film-scratches",
+    "name": "Film Scratches",
+    "category": "film",
+    "description": "Worn-print vertical scratches that come and go.",
+    "tags": [
+      "damage",
+      "vintage",
+      "worn"
+    ],
+    "synonyms": [
+      "scratches",
+      "scratched film",
+      "damaged film"
+    ],
+    "animated": true
+  },
+  {
+    "id": "dust-and-hair",
+    "name": "Dust & Hair",
+    "category": "film",
+    "description": "Flecks of dust and the odd stray hair dancing on the projected print.",
+    "tags": [
+      "damage",
+      "vintage",
+      "projector"
+    ],
+    "synonyms": [
+      "dust",
+      "specks",
+      "hair in gate",
+      "dirty film"
+    ],
+    "animated": true
+  },
+  {
+    "id": "gate-weave",
+    "name": "Gate Weave",
+    "category": "film",
+    "description": "The frame wanders slightly, like film moving through a worn projector gate.",
+    "tags": [
+      "wobble",
+      "projector",
+      "analog"
+    ],
+    "synonyms": [
+      "weave",
+      "jitter",
+      "film wobble",
+      "projector shake"
+    ],
+    "animated": true
+  },
+  {
+    "id": "exposure-flicker",
+    "name": "Exposure Flicker",
+    "category": "film",
+    "description": "Uneven, flickering exposure from an old hand-cranked camera.",
+    "tags": [
+      "flicker",
+      "vintage"
+    ],
+    "synonyms": [
+      "flicker",
+      "flickering",
+      "strobing light"
+    ],
+    "animated": true
+  },
+  {
+    "id": "halation",
+    "name": "Halation",
+    "category": "film",
+    "description": "Red-orange glow bleeding around bright highlights, as on cinema film stock.",
+    "tags": [
+      "glow",
+      "film",
+      "highlights"
+    ],
+    "synonyms": [
+      "red glow",
+      "cinestill",
+      "film glow"
+    ],
+    "animated": false
+  },
+  {
+    "id": "light-leaks",
+    "name": "Light Leaks",
+    "category": "film",
+    "description": "Warm, soft washes of light drifting across the frame like a leaky camera.",
+    "tags": [
+      "warm",
+      "dreamy",
+      "vintage",
+      "glow"
+    ],
+    "synonyms": [
+      "leak",
+      "light leak",
+      "film leak",
+      "lens leak"
+    ],
+    "animated": true
+  },
+  {
+    "id": "film-burn",
+    "name": "Film Burn",
+    "category": "film",
+    "description": "The film melts and burns: a molten orange-white front creeps in from the edge and flickers.",
+    "tags": [
+      "burn",
+      "transition",
+      "fire",
+      "vintage"
+    ],
+    "synonyms": [
+      "burn",
+      "burning film",
+      "film melt",
+      "burnout"
+    ],
+    "animated": true
+  },
+  {
+    "id": "vhs",
+    "name": "VHS",
+    "category": "retro",
+    "description": "Worn VHS tape: soft picture, bleeding chroma, tape noise, wobbling lines and tracking bands.",
+    "tags": [
+      "90s",
+      "tape",
+      "analog",
+      "nostalgic"
+    ],
+    "synonyms": [
+      "vhs tape",
+      "videotape",
+      "90s",
+      "80s",
+      "home video"
+    ],
+    "animated": true
+  },
+  {
+    "id": "tracking-errors",
+    "name": "Tracking Errors",
+    "category": "retro",
+    "description": "Mis-tracked tape: rolling bands of torn, noisy, sideways-shifted lines.",
+    "tags": [
+      "tape",
+      "glitch",
+      "analog"
+    ],
+    "synonyms": [
+      "bad tracking",
+      "tracking",
+      "vhs glitch"
+    ],
+    "animated": true
+  },
+  {
+    "id": "tape-dropout",
+    "name": "Tape Dropout",
+    "category": "retro",
+    "description": "Flecks and streaks of white where the magnetic tape lost signal.",
+    "tags": [
+      "tape",
+      "glitch",
+      "damage"
+    ],
+    "synonyms": [
+      "dropout",
+      "tape damage",
+      "signal loss"
+    ],
+    "animated": true
+  },
+  {
+    "id": "chroma-bleed",
+    "name": "Chroma Bleed",
+    "category": "retro",
+    "description": "Colour smears and lags to the right of edges, like composite video.",
+    "tags": [
+      "analog",
+      "color",
+      "composite"
+    ],
+    "synonyms": [
+      "color bleed",
+      "composite video",
+      "chroma smear"
+    ],
+    "animated": false
+  },
+  {
+    "id": "crt-scanlines",
+    "name": "CRT Scanlines",
+    "category": "retro",
+    "description": "Visible scanlines of a tube TV, with brighter lines blooming wider.",
+    "tags": [
+      "crt",
+      "tv",
+      "arcade"
+    ],
+    "synonyms": [
+      "scanlines",
+      "crt",
+      "old tv",
+      "arcade"
+    ],
+    "animated": false
+  },
+  {
+    "id": "crt-curvature",
+    "name": "CRT Curvature",
+    "category": "retro",
+    "description": "A curved tube-TV screen: bulging glass, rounded corners, scanlines and glow.",
+    "tags": [
+      "crt",
+      "tv",
+      "retro",
+      "arcade"
+    ],
+    "synonyms": [
+      "crt tv",
+      "tube tv",
+      "old television",
+      "curved screen"
+    ],
+    "animated": false
+  },
+  {
+    "id": "phosphor-mask",
+    "name": "Phosphor Mask",
+    "category": "retro",
+    "description": "Close-up of a CRT: the picture breaks into glowing red, green and blue phosphor stripes.",
+    "tags": [
+      "crt",
+      "rgb",
+      "texture"
+    ],
+    "synonyms": [
+      "aperture grille",
+      "shadow mask",
+      "rgb pixels",
+      "crt mask"
+    ],
+    "animated": false
+  },
+  {
+    "id": "interlace",
+    "name": "Interlace",
+    "category": "retro",
+    "description": "Interlaced video: alternate lines from different moments, with combing on motion.",
+    "tags": [
+      "video",
+      "tv",
+      "combing"
+    ],
+    "synonyms": [
+      "interlaced",
+      "combing",
+      "fields",
+      "deinterlace"
+    ],
+    "animated": true
+  },
+  {
+    "id": "analog-snow",
+    "name": "Analog Snow",
+    "category": "retro",
+    "description": "Weak broadcast signal buried in hissing TV static.",
+    "tags": [
+      "static",
+      "noise",
+      "tv"
+    ],
+    "synonyms": [
+      "static",
+      "tv static",
+      "snow",
+      "noise",
+      "no signal"
+    ],
+    "animated": true
+  },
+  {
+    "id": "vertical-roll",
+    "name": "Vertical Roll",
+    "category": "retro",
+    "description": "The picture loses vertical hold and rolls, with the black blanking bar sliding through.",
+    "tags": [
+      "tv",
+      "glitch",
+      "analog"
+    ],
+    "synonyms": [
+      "rolling",
+      "vertical hold",
+      "roll",
+      "v-hold"
+    ],
+    "animated": true
+  },
+  {
+    "id": "ghosting",
+    "name": "Ghosting",
+    "category": "retro",
+    "description": "Multipath broadcast ghost: a faint offset echo of every edge.",
+    "tags": [
+      "tv",
+      "antenna",
+      "echo"
+    ],
+    "synonyms": [
+      "ghost image",
+      "multipath",
+      "antenna ghost"
+    ],
+    "animated": false
+  },
+  {
+    "id": "camcorder-overlay",
+    "name": "Camcorder",
+    "category": "retro",
+    "description": "Home-video viewfinder: blinking REC dot, running timecode, battery icon and frame marks.",
+    "tags": [
+      "home-video",
+      "90s",
+      "overlay",
+      "found-footage"
+    ],
+    "synonyms": [
+      "camcorder",
+      "rec",
+      "handycam",
+      "found footage",
+      "viewfinder"
+    ],
+    "animated": true
+  },
+  {
+    "id": "rgb-split",
+    "name": "RGB Split",
+    "category": "glitch",
+    "description": "Red and blue channels pulled apart for a jittery chromatic offset.",
+    "tags": [
+      "chromatic",
+      "glitch",
+      "cyberpunk"
+    ],
+    "synonyms": [
+      "chromatic aberration",
+      "rgb shift",
+      "channel shift",
+      "color split"
+    ],
+    "animated": true
+  },
+  {
+    "id": "pixel-sort",
+    "name": "Pixel Sort",
+    "category": "glitch",
+    "description": "Bright runs of pixels sorted by brightness into smeared horizontal streaks.",
+    "tags": [
+      "glitch-art",
+      "databending",
+      "streaks"
+    ],
+    "synonyms": [
+      "pixel sorting",
+      "sorted pixels",
+      "glitch art"
+    ],
+    "animated": false
+  },
+  {
+    "id": "macroblock",
+    "name": "Macroblock",
+    "category": "glitch",
+    "description": "Broken digital stream: blocky compression artefacts, stale blocks and colour-shifted squares.",
+    "tags": [
+      "compression",
+      "datamosh",
+      "digital"
+    ],
+    "synonyms": [
+      "datamosh",
+      "compression",
+      "blocky",
+      "jpeg",
+      "bad stream"
+    ],
+    "animated": true
+  },
+  {
+    "id": "slice-shift",
+    "name": "Slice Shift",
+    "category": "glitch",
+    "description": "Bursts of horizontal slices tearing sideways.",
+    "tags": [
+      "glitch",
+      "displacement",
+      "digital"
+    ],
+    "synonyms": [
+      "slice glitch",
+      "displacement glitch",
+      "glitch slices"
+    ],
+    "animated": true
+  },
+  {
+    "id": "frame-repeat",
+    "name": "Frame Repeat",
+    "category": "glitch",
+    "description": "Stuttering playback: frames freeze, repeat and jump back.",
+    "tags": [
+      "stutter",
+      "lag",
+      "temporal"
+    ],
+    "synonyms": [
+      "stutter",
+      "lag",
+      "buffering",
+      "frame stutter"
+    ],
+    "animated": true
+  },
+  {
+    "id": "digital-tear",
+    "name": "Digital Tear",
+    "category": "glitch",
+    "description": "The frame tears along a few lines, with sections slipping sideways and fringing.",
+    "tags": [
+      "glitch",
+      "tearing",
+      "vsync"
+    ],
+    "synonyms": [
+      "screen tear",
+      "tearing",
+      "vsync tear"
+    ],
+    "animated": true
+  },
+  {
+    "id": "bit-crush",
+    "name": "Bit Crush",
+    "category": "glitch",
+    "description": "Reduced colour depth with ordered dithering, like an 8-bit computer.",
+    "tags": [
+      "8-bit",
+      "dither",
+      "retro-computer"
+    ],
+    "synonyms": [
+      "8 bit",
+      "dither",
+      "low color",
+      "retro game",
+      "8-bit"
+    ],
+    "animated": false
+  },
+  {
+    "id": "pixelate",
+    "name": "Pixelate",
+    "category": "glitch",
+    "description": "Big chunky pixels.",
+    "tags": [
+      "mosaic",
+      "8-bit",
+      "censor"
+    ],
+    "synonyms": [
+      "pixels",
+      "pixelated",
+      "mosaic",
+      "censor",
+      "8-bit"
+    ],
+    "animated": false
+  },
+  {
+    "id": "glitch-bursts",
+    "name": "Glitch Bursts",
+    "category": "glitch",
+    "description": "Mostly clean picture hit by short random bursts of RGB split, slice tearing and broken blocks.",
+    "tags": [
+      "glitch",
+      "cyberpunk",
+      "digital",
+      "music-video"
+    ],
+    "synonyms": [
+      "glitch",
+      "glitchy",
+      "corrupted",
+      "cyberpunk",
+      "error"
+    ],
+    "animated": true
+  },
+  {
+    "id": "gaussian-blur",
+    "name": "Gaussian Blur",
+    "category": "blur",
+    "description": "Smooth, even defocus.",
+    "tags": [
+      "soft",
+      "defocus"
+    ],
+    "synonyms": [
+      "blur",
+      "blurry",
+      "soft",
+      "out of focus"
+    ],
+    "animated": false
+  },
+  {
+    "id": "box-blur",
+    "name": "Box Blur",
+    "category": "blur",
+    "description": "Flat, boxy averaging blur with a slightly digital character.",
+    "tags": [
+      "soft",
+      "digital"
+    ],
+    "synonyms": [
+      "average blur",
+      "mean blur"
+    ],
+    "animated": false
+  },
+  {
+    "id": "lens-blur",
+    "name": "Lens Blur",
+    "category": "blur",
+    "description": "Optical out-of-focus blur with a round aperture and luminous highlights.",
+    "tags": [
+      "defocus",
+      "optical",
+      "cinematic"
+    ],
+    "synonyms": [
+      "defocus",
+      "out of focus",
+      "camera blur",
+      "dof"
+    ],
+    "animated": false
+  },
+  {
+    "id": "bokeh",
+    "name": "Bokeh",
+    "category": "blur",
+    "description": "Dreamy defocus where highlights bloom into bright round discs.",
+    "tags": [
+      "dreamy",
+      "defocus",
+      "lights"
+    ],
+    "synonyms": [
+      "bokeh balls",
+      "background blur",
+      "portrait blur",
+      "fairy lights"
+    ],
+    "animated": false
+  },
+  {
+    "id": "directional-blur",
+    "name": "Directional Blur",
+    "category": "blur",
+    "description": "Motion blur streaking along a diagonal, as if panning fast.",
+    "tags": [
+      "motion",
+      "speed"
+    ],
+    "synonyms": [
+      "motion blur",
+      "speed blur",
+      "streak"
+    ],
+    "animated": false
+  },
+  {
+    "id": "spin-blur",
+    "name": "Spin Blur",
+    "category": "blur",
+    "description": "Rotational blur swirling around the centre.",
+    "tags": [
+      "motion",
+      "rotation"
+    ],
+    "synonyms": [
+      "radial blur",
+      "rotation blur",
+      "twist blur"
+    ],
+    "animated": false
+  },
+  {
+    "id": "zoom-blur",
+    "name": "Zoom Blur",
+    "category": "blur",
+    "description": "Explosive radial blur rushing out from the centre.",
+    "tags": [
+      "motion",
+      "speed",
+      "impact"
+    ],
+    "synonyms": [
+      "radial blur",
+      "warp speed",
+      "rush"
+    ],
+    "animated": false
+  },
+  {
+    "id": "tilt-shift",
+    "name": "Tilt Shift",
+    "category": "blur",
+    "description": "Miniature-model effect: a sharp horizontal band, blurred top and bottom, punchier colour.",
+    "tags": [
+      "miniature",
+      "toy",
+      "diorama"
+    ],
+    "synonyms": [
+      "miniature",
+      "toy town",
+      "diorama",
+      "fake miniature"
+    ],
+    "animated": false
+  },
+  {
+    "id": "soft-focus",
+    "name": "Soft Focus",
+    "category": "blur",
+    "description": "Dreamy diffusion filter: a soft glow blooms around everything.",
+    "tags": [
+      "dreamy",
+      "glow",
+      "romantic",
+      "portrait"
+    ],
+    "synonyms": [
+      "diffusion",
+      "dreamy",
+      "glow",
+      "pro-mist",
+      "soft glow"
+    ],
+    "animated": false
+  },
+  {
+    "id": "sharpen",
+    "name": "Sharpen",
+    "category": "blur",
+    "description": "Crisper edges and fine detail.",
+    "tags": [
+      "crisp",
+      "detail"
+    ],
+    "synonyms": [
+      "sharp",
+      "crisp",
+      "detail",
+      "clarity"
+    ],
+    "animated": false
+  },
+  {
+    "id": "lens-flare",
+    "name": "Lens Flare",
+    "category": "lens",
+    "description": "A drifting sun flare anchored to the brightest light: glow, rays, halo and a chain of coloured ghosts.",
+    "tags": [
+      "sun",
+      "flare",
+      "cinematic",
+      "summer"
+    ],
+    "synonyms": [
+      "flare",
+      "sun flare",
+      "jj abrams",
+      "lens glare"
+    ],
+    "animated": true
+  },
+  {
+    "id": "anamorphic-streaks",
+    "name": "Anamorphic Streaks",
+    "category": "lens",
+    "description": "Long blue horizontal streaks flaring off every bright light.",
+    "tags": [
+      "cinematic",
+      "sci-fi",
+      "lights"
+    ],
+    "synonyms": [
+      "anamorphic flare",
+      "blue streak",
+      "horizontal flare",
+      "jj abrams"
+    ],
+    "animated": false
+  },
+  {
+    "id": "starburst",
+    "name": "Starburst",
+    "category": "lens",
+    "description": "Star-filter sparkle: bright points burst into six-pointed stars.",
+    "tags": [
+      "sparkle",
+      "glamour",
+      "night"
+    ],
+    "synonyms": [
+      "star filter",
+      "sparkle",
+      "twinkle",
+      "star cross"
+    ],
+    "animated": false
+  },
+  {
+    "id": "bloom",
+    "name": "Bloom",
+    "category": "lens",
+    "description": "Highlights glow and spill softly into their surroundings.",
+    "tags": [
+      "glow",
+      "dreamy",
+      "bright"
+    ],
+    "synonyms": [
+      "glow",
+      "bright glow",
+      "dreamy glow"
+    ],
+    "animated": false
+  },
+  {
+    "id": "vignette",
+    "name": "Vignette",
+    "category": "lens",
+    "description": "Darkened corners that draw the eye to the centre.",
+    "tags": [
+      "frame",
+      "focus"
+    ],
+    "synonyms": [
+      "dark corners",
+      "dark edges"
+    ],
+    "animated": false
+  },
+  {
+    "id": "chromatic-aberration",
+    "name": "Chromatic Aberration",
+    "category": "lens",
+    "description": "Cheap-lens colour fringing that grows towards the edges.",
+    "tags": [
+      "fringe",
+      "lens",
+      "lo-fi"
+    ],
+    "synonyms": [
+      "color fringing",
+      "ca",
+      "lens fringe",
+      "prism fringe"
+    ],
+    "animated": false
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel Distortion",
+    "category": "lens",
+    "description": "Wide-angle bulge: straight lines bow outward.",
+    "tags": [
+      "wide-angle",
+      "distortion"
+    ],
+    "synonyms": [
+      "bulge",
+      "wide angle",
+      "gopro"
+    ],
+    "animated": false
+  },
+  {
+    "id": "pincushion",
+    "name": "Pincushion",
+    "category": "lens",
+    "description": "Telephoto pinch: straight lines bow inward toward the centre.",
+    "tags": [
+      "distortion"
+    ],
+    "synonyms": [
+      "pinch distortion",
+      "inward distortion"
+    ],
+    "animated": false
+  },
+  {
+    "id": "fisheye",
+    "name": "Fisheye",
+    "category": "lens",
+    "description": "Extreme ultra-wide fisheye lens with a strongly curved world.",
+    "tags": [
+      "skate",
+      "extreme",
+      "wide-angle"
+    ],
+    "synonyms": [
+      "fish eye",
+      "skate video",
+      "ultra wide",
+      "peephole"
+    ],
+    "animated": false
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "category": "lens",
+    "description": "Shooting through a prism: translucent, rainbow-tinted copies float beside the image.",
+    "tags": [
+      "dreamy",
+      "kaleidoscopic",
+      "music-video"
+    ],
+    "synonyms": [
+      "prism lens",
+      "refraction",
+      "double image",
+      "prism filter"
+    ],
+    "animated": false
+  },
+  {
+    "id": "kaleidoscope",
+    "name": "Kaleidoscope",
+    "category": "lens",
+    "description": "Eight mirrored wedges turning slowly, like looking through a kaleidoscope.",
+    "tags": [
+      "psychedelic",
+      "symmetry",
+      "trippy"
+    ],
+    "synonyms": [
+      "mirror symmetry",
+      "mandala",
+      "trippy"
+    ],
+    "animated": true
+  },
+  {
+    "id": "lens-fog",
+    "name": "Lens Fog",
+    "category": "lens",
+    "description": "A misted-up lens: milky haze drifting across, highlights glowing.",
+    "tags": [
+      "haze",
+      "mist",
+      "dreamy",
+      "moody"
+    ],
+    "synonyms": [
+      "fog",
+      "mist",
+      "haze",
+      "foggy lens",
+      "steam"
+    ],
+    "animated": true
+  },
+  {
+    "id": "wave",
+    "name": "Wave",
+    "category": "distort",
+    "description": "Gentle sideways waves rolling down the picture, like a reflection in water.",
+    "tags": [
+      "water",
+      "wobble",
+      "dreamy"
+    ],
+    "synonyms": [
+      "wavy",
+      "water reflection",
+      "wobble",
+      "underwater"
+    ],
+    "animated": true
+  },
+  {
+    "id": "ripple",
+    "name": "Ripple",
+    "category": "distort",
+    "description": "Concentric ripples spreading out from the centre, like a stone dropped in a pond.",
+    "tags": [
+      "water",
+      "pond",
+      "rings"
+    ],
+    "synonyms": [
+      "water ripple",
+      "pond",
+      "shockwave",
+      "drop"
+    ],
+    "animated": true
+  },
+  {
+    "id": "turbulence",
+    "name": "Turbulence",
+    "category": "distort",
+    "description": "Churning heat-haze displacement that never sits still.",
+    "tags": [
+      "heat-haze",
+      "warp",
+      "liquid"
+    ],
+    "synonyms": [
+      "heat haze",
+      "heat wave",
+      "mirage",
+      "liquid",
+      "warp"
+    ],
+    "animated": true
+  },
+  {
+    "id": "bulge",
+    "name": "Bulge",
+    "category": "distort",
+    "description": "The centre swells toward the camera like a fish-bowl.",
+    "tags": [
+      "funny",
+      "big-head",
+      "fishbowl"
+    ],
+    "synonyms": [
+      "big head",
+      "fish bowl",
+      "magnify",
+      "bubble"
+    ],
+    "animated": false
+  },
+  {
+    "id": "pinch",
+    "name": "Pinch",
+    "category": "distort",
+    "description": "The centre is sucked inward, squeezing the picture to a point.",
+    "tags": [
+      "funny",
+      "squeeze"
+    ],
+    "synonyms": [
+      "squeeze",
+      "suck in",
+      "implode"
+    ],
+    "animated": false
+  },
+  {
+    "id": "twirl",
+    "name": "Twirl",
+    "category": "distort",
+    "description": "A swirl that twists the middle of the frame.",
+    "tags": [
+      "swirl",
+      "trippy"
+    ],
+    "synonyms": [
+      "swirl",
+      "twist"
+    ],
+    "animated": false
+  },
+  {
+    "id": "vortex",
+    "name": "Vortex",
+    "category": "distort",
+    "description": "A spinning whirlpool that keeps twisting the centre of the frame.",
+    "tags": [
+      "whirlpool",
+      "trippy",
+      "portal"
+    ],
+    "synonyms": [
+      "whirlpool",
+      "portal",
+      "spiral",
+      "black hole"
+    ],
+    "animated": true
+  },
+  {
+    "id": "mirror",
+    "name": "Mirror",
+    "category": "distort",
+    "description": "Left half reflected onto the right for perfect symmetry.",
+    "tags": [
+      "symmetry",
+      "reflection"
+    ],
+    "synonyms": [
+      "symmetry",
+      "reflect",
+      "mirrored"
+    ],
+    "animated": false
+  },
+  {
+    "id": "tile",
+    "name": "Tile",
+    "category": "distort",
+    "description": "A seamless 2x2 mirrored tiling of the frame.",
+    "tags": [
+      "pattern",
+      "repeat"
+    ],
+    "synonyms": [
+      "repeat",
+      "tiles",
+      "grid"
+    ],
+    "animated": false
+  },
+  {
+    "id": "polar",
+    "name": "Polar",
+    "category": "distort",
+    "description": "Wraps the frame into a circle: a tiny-planet view with the ground at the centre.",
+    "tags": [
+      "tiny-planet",
+      "circle"
+    ],
+    "synonyms": [
+      "tiny planet",
+      "little planet",
+      "polar coordinates",
+      "globe"
+    ],
+    "animated": false
+  },
+  {
+    "id": "perspective-tilt",
+    "name": "Perspective Tilt",
+    "category": "distort",
+    "description": "The frame tips back in 3D, receding into the distance.",
+    "tags": [
+      "3d",
+      "tilt",
+      "star-wars"
+    ],
+    "synonyms": [
+      "3d tilt",
+      "keystone",
+      "tilted",
+      "star wars crawl"
+    ],
+    "animated": false
+  },
+  {
+    "id": "reverse",
+    "name": "Reverse",
+    "category": "time",
+    "description": "Plays the clip backwards.",
+    "tags": [
+      "rewind",
+      "backwards"
+    ],
+    "synonyms": [
+      "rewind",
+      "backwards",
+      "reverse playback"
+    ],
+    "animated": false
+  },
+  {
+    "id": "ping-pong",
+    "name": "Ping-Pong",
+    "category": "time",
+    "description": "Plays forward at double speed, then bounces back, for a seamless loop.",
+    "tags": [
+      "loop",
+      "boomerang"
+    ],
+    "synonyms": [
+      "boomerang",
+      "bounce",
+      "loop",
+      "back and forth"
+    ],
+    "animated": false
+  },
+  {
+    "id": "freeze-frame",
+    "name": "Freeze Frame",
+    "category": "time",
+    "description": "Plays the first half, then freezes on the middle frame with a quick flash.",
+    "tags": [
+      "freeze",
+      "pause",
+      "dramatic"
+    ],
+    "synonyms": [
+      "freeze",
+      "pause",
+      "still frame",
+      "record scratch"
+    ],
+    "animated": false
+  },
+  {
+    "id": "stop-motion",
+    "name": "Stop Motion",
+    "category": "time",
+    "description": "Choppy, handmade stop-motion: frames held at an 8 fps cadence with tiny jitters.",
+    "tags": [
+      "claymation",
+      "choppy",
+      "handmade"
+    ],
+    "synonyms": [
+      "claymation",
+      "choppy",
+      "low frame rate",
+      "8fps",
+      "animation"
+    ],
+    "animated": true
+  },
+  {
+    "id": "speed-ramp",
+    "name": "Speed Ramp",
+    "category": "time",
+    "description": "Slow-fast-slow time remapping, like an action-sports edit.",
+    "tags": [
+      "slow-motion",
+      "action",
+      "edit"
+    ],
+    "synonyms": [
+      "slow motion",
+      "time ramp",
+      "velocity edit",
+      "slowmo"
+    ],
+    "animated": false
+  },
+  {
+    "id": "time-displace",
+    "name": "Time Displacement",
+    "category": "time",
+    "description": "Each row of the picture lags further behind in time, bending anything that moves.",
+    "tags": [
+      "temporal",
+      "warp",
+      "experimental"
+    ],
+    "synonyms": [
+      "time warp",
+      "rolling shutter",
+      "scan warp"
+    ],
+    "animated": false
+  },
+  {
+    "id": "slit-scan",
+    "name": "Slit Scan",
+    "category": "time",
+    "description": "Columns are sampled from different moments, sweeping time across the frame like a slit-scan camera.",
+    "tags": [
+      "temporal",
+      "experimental",
+      "2001"
+    ],
+    "synonyms": [
+      "slitscan",
+      "time slice",
+      "stargate"
+    ],
+    "animated": true
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "category": "trails",
+    "description": "Fading copies of the last moments trail behind anything that moves.",
+    "tags": [
+      "trail",
+      "motion",
+      "dreamy"
+    ],
+    "synonyms": [
+      "echo trail",
+      "motion trail",
+      "afterimage",
+      "ghost frames"
+    ],
+    "animated": true
+  },
+  {
+    "id": "ghost-trail",
+    "name": "Ghost Trail",
+    "category": "trails",
+    "description": "Glowing, cool-tinted afterimages that linger on bright moving shapes.",
+    "tags": [
+      "trail",
+      "glow",
+      "spooky"
+    ],
+    "synonyms": [
+      "afterimage",
+      "light trail",
+      "ghosting trail",
+      "phantom"
+    ],
+    "animated": true
+  },
+  {
+    "id": "long-exposure",
+    "name": "Long Exposure",
+    "category": "trails",
+    "description": "Motion smears into silky streaks while lights paint bright trails.",
+    "tags": [
+      "light-painting",
+      "smooth",
+      "night"
+    ],
+    "synonyms": [
+      "light trails",
+      "slow shutter",
+      "light painting",
+      "motion smear"
+    ],
+    "animated": true
+  },
+  {
+    "id": "strobe",
+    "name": "Strobe",
+    "category": "trails",
+    "description": "Stroboscopic multiple exposure: crisp, distinct stages of the motion frozen together.",
+    "tags": [
+      "multiple-exposure",
+      "sports",
+      "dance"
+    ],
+    "synonyms": [
+      "stroboscope",
+      "multiple exposure",
+      "stroboscopic",
+      "chronophotography"
+    ],
+    "animated": true
+  },
+  {
+    "id": "color-trails",
+    "name": "Color Trails",
+    "category": "trails",
+    "description": "Red, green and blue are taken from different moments, leaving rainbow fringes on motion.",
+    "tags": [
+      "rgb",
+      "psychedelic",
+      "trail"
+    ],
+    "synonyms": [
+      "rgb delay",
+      "chromatic trails",
+      "rainbow trail",
+      "channel delay"
+    ],
+    "animated": true
+  },
+  {
+    "id": "letterbox",
+    "name": "Letterbox",
+    "category": "layout",
+    "description": "Cinemascope 2.39:1 black bars for an instant movie feel.",
+    "tags": [
+      "cinematic",
+      "widescreen",
+      "bars"
+    ],
+    "synonyms": [
+      "cinemascope",
+      "black bars",
+      "widescreen",
+      "movie bars",
+      "cinematic bars"
+    ],
+    "animated": false
+  },
+  {
+    "id": "polaroid",
+    "name": "Polaroid",
+    "category": "layout",
+    "description": "An instant photo: cream frame with the thick bottom border and faded, warm colours.",
+    "tags": [
+      "instant",
+      "vintage",
+      "frame"
+    ],
+    "synonyms": [
+      "instant photo",
+      "instax",
+      "photo frame",
+      "polaroid frame"
+    ],
+    "animated": false
+  },
+  {
+    "id": "filmstrip",
+    "name": "Filmstrip",
+    "category": "layout",
+    "description": "The clip runs on a strip of film, sprocket holes sliding past.",
+    "tags": [
+      "film",
+      "frame",
+      "vintage"
+    ],
+    "synonyms": [
+      "film strip",
+      "sprockets",
+      "negative strip",
+      "35mm frame"
+    ],
+    "animated": true
+  },
+  {
+    "id": "rounded-frame",
+    "name": "Rounded Frame",
+    "category": "layout",
+    "description": "The clip floats as a rounded card with a soft shadow over a blurred backdrop.",
+    "tags": [
+      "card",
+      "modern",
+      "frame"
+    ],
+    "synonyms": [
+      "rounded corners",
+      "card",
+      "floating frame",
+      "frame"
+    ],
+    "animated": false
+  },
+  {
+    "id": "split-screen",
+    "name": "Split Screen",
+    "category": "layout",
+    "description": "Three vertical panels of the same clip, the middle one running half a second behind.",
+    "tags": [
+      "panels",
+      "triptych",
+      "music-video"
+    ],
+    "synonyms": [
+      "triptych",
+      "three panels",
+      "split",
+      "multi screen"
+    ],
+    "animated": true
+  },
+  {
+    "id": "grid-montage",
+    "name": "Grid Montage",
+    "category": "layout",
+    "description": "A 2x2 grid of the clip, each panel a beat later than the last.",
+    "tags": [
+      "grid",
+      "montage",
+      "panels"
+    ],
+    "synonyms": [
+      "2x2",
+      "quad",
+      "grid",
+      "four up",
+      "brady bunch"
+    ],
+    "animated": true
+  },
+  {
+    "id": "picture-in-picture",
+    "name": "Picture in Picture",
+    "category": "layout",
+    "description": "A framed inset in the corner shows a zoomed-in detail, a moment behind.",
+    "tags": [
+      "inset",
+      "reaction",
+      "pip"
+    ],
+    "synonyms": [
+      "pip",
+      "inset",
+      "reaction cam",
+      "zoom inset"
+    ],
+    "animated": true
+  },
+  {
+    "id": "droste",
+    "name": "Droste",
+    "category": "layout",
+    "description": "The picture contains itself, over and over, in nested frames.",
+    "tags": [
+      "recursive",
+      "infinite",
+      "mise-en-abyme"
+    ],
+    "synonyms": [
+      "recursive",
+      "infinite frame",
+      "picture in picture loop",
+      "mise en abyme"
+    ],
+    "animated": false
+  },
+  {
+    "id": "recursive-zoom",
+    "name": "Recursive Zoom",
+    "category": "layout",
+    "description": "An endless zoom into nested copies of the frame that loops seamlessly.",
+    "tags": [
+      "infinite",
+      "zoom",
+      "loop",
+      "trippy"
+    ],
+    "synonyms": [
+      "infinite zoom",
+      "endless zoom",
+      "zoom loop",
+      "droste zoom"
+    ],
+    "animated": true
+  },
+  {
+    "id": "halftone",
+    "name": "Halftone",
+    "category": "art",
+    "description": "Printed-magazine CMY dot screen with angled rosettes.",
+    "tags": [
+      "print",
+      "pop-art",
+      "dots"
+    ],
+    "synonyms": [
+      "dots",
+      "ben day",
+      "print",
+      "newspaper",
+      "magazine"
+    ],
+    "animated": false
+  },
+  {
+    "id": "comic",
+    "name": "Comic Book",
+    "category": "art",
+    "description": "Comic-book panel: flat bold colours, inked outlines and halftone shadows.",
+    "tags": [
+      "cartoon",
+      "pop-art",
+      "ink"
+    ],
+    "synonyms": [
+      "comic book",
+      "cartoon",
+      "graphic novel",
+      "pop art",
+      "marvel"
+    ],
+    "animated": false
+  },
+  {
+    "id": "pencil-sketch",
+    "name": "Pencil Sketch",
+    "category": "art",
+    "description": "Graphite drawing on paper with soft shading and cross-hatching.",
+    "tags": [
+      "drawing",
+      "sketch",
+      "graphite"
+    ],
+    "synonyms": [
+      "sketch",
+      "drawing",
+      "pencil",
+      "graphite",
+      "hand drawn"
+    ],
+    "animated": false
+  },
+  {
+    "id": "ink-outline",
+    "name": "Ink Outline",
+    "category": "art",
+    "description": "Crisp black ink linework over pale watercolour washes.",
+    "tags": [
+      "line-art",
+      "illustration",
+      "ink"
+    ],
+    "synonyms": [
+      "line art",
+      "outline",
+      "ink drawing",
+      "illustration",
+      "lineart"
+    ],
+    "animated": false
+  },
+  {
+    "id": "mosaic",
+    "name": "Mosaic",
+    "category": "art",
+    "description": "Glossy ceramic tiles with grout lines, each tile a single colour.",
+    "tags": [
+      "tiles",
+      "ceramic",
+      "craft"
+    ],
+    "synonyms": [
+      "tiles",
+      "tile mosaic",
+      "roman mosaic"
+    ],
+    "animated": false
+  },
+  {
+    "id": "stained-glass",
+    "name": "Stained Glass",
+    "category": "art",
+    "description": "Jewel-toned glass cells joined by dark lead came, glowing with light.",
+    "tags": [
+      "church",
+      "glass",
+      "jewel"
+    ],
+    "synonyms": [
+      "stained glass window",
+      "voronoi",
+      "cathedral glass"
+    ],
+    "animated": false
+  },
+  {
+    "id": "ascii",
+    "name": "ASCII Art",
+    "category": "art",
+    "description": "The video rebuilt from coloured text characters on a black terminal.",
+    "tags": [
+      "text",
+      "terminal",
+      "hacker",
+      "code"
+    ],
+    "synonyms": [
+      "ascii art",
+      "text art",
+      "terminal",
+      "matrix",
+      "characters"
+    ],
+    "animated": false
+  },
+  {
+    "id": "cel-shade",
+    "name": "Cel Shade",
+    "category": "art",
+    "description": "Anime/cartoon cel shading: flat light bands with clean dark outlines.",
+    "tags": [
+      "anime",
+      "cartoon",
+      "toon"
+    ],
+    "synonyms": [
+      "toon",
+      "anime",
+      "cartoon",
+      "cel shading",
+      "toon shader"
+    ],
+    "animated": false
+  },
+  {
+    "id": "pointillism",
+    "name": "Pointillism",
+    "category": "art",
+    "description": "Painted entirely in small dabs of pure colour, like Seurat.",
+    "tags": [
+      "painting",
+      "impressionist",
+      "dots"
+    ],
+    "synonyms": [
+      "seurat",
+      "dot painting",
+      "stippling",
+      "impressionist"
+    ],
+    "animated": false
+  },
+  {
+    "id": "oil-paint",
+    "name": "Oil Paint",
+    "category": "art",
+    "description": "Painterly Kuwahara filter: smooth brushy patches, kept edges and a hint of impasto.",
+    "tags": [
+      "painting",
+      "painterly",
+      "artistic"
+    ],
+    "synonyms": [
+      "painting",
+      "oil painting",
+      "painterly",
+      "kuwahara",
+      "van gogh"
+    ],
+    "animated": false
+  }
+]

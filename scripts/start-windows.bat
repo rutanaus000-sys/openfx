@@ -11,6 +11,14 @@ if not exist .venv (
 
 if "%COMFYUI_DIR%"=="" set COMFYUI_DIR=%USERPROFILE%\ComfyUI
 
+REM Link the OpenFX Look nodes into ComfyUI (restart ComfyUI once after the first run).
+if not exist "%COMFYUI_DIR%\custom_nodes\comfyui_openfx" (
+  mklink /J "%COMFYUI_DIR%\custom_nodes\comfyui_openfx" "%CD%\comfyui_openfx"
+  echo Linked the OpenFX nodes into ComfyUI. Restart ComfyUI, then run this script again.
+  pause
+  exit /b
+)
+
 start "Comfy API proxy" .venv\Scripts\comfy-api-proxy.exe run --comfyui-base-dir "%COMFYUI_DIR%"
 set COMFY_BASE_URL=http://127.0.0.1:8189
 echo OpenFX: http://127.0.0.1:7860
