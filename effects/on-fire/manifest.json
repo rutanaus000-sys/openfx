@@ -1,15 +1,28 @@
 {
   "name": "On Fire",
-  "description": "Flames engulf the subject without harming them.",
+  "engine": "ai",
+  "category": "elements",
+  "description": "Flames ignite around the subject and roar upward.",
   "tags": [
-    "vfx",
-    "fire"
+    "fire",
+    "flames",
+    "burn",
+    "heat"
   ],
+  "synonyms": [
+    "burning",
+    "inferno",
+    "blaze",
+    "hot"
+  ],
+  "featured": true,
+  "input": "image",
   "workflow": "workflows/ltx23_i2v_api.json",
-  "prompt": "Bright orange flames{detail} erupt around the subject and race upward, flickering fire and embers swirling through the air, heat shimmer distorting the background, dramatic warm light on the face. Cinematic, static camera.",
+  "prompt": "The subject{detail} stands still, unharmed and calm, as small flames flicker to life at the bottom of the frame. The fire quickly spreads and climbs, wrapping around the subject's silhouette in bright orange and yellow tongues of flame that roar upward, throwing sparks and glowing embers into the air. Heat shimmer ripples the air behind the subject, and the flickering firelight casts warm, dancing orange light across their face and clothing, with deep shadows on the far side. Thick dark smoke curls at the top of the frame. Realistic fire simulation, cinematic, dramatic contrast, locked-off camera.",
+  "negative_prompt": "static image, frozen, no motion, morphing face, distorted face, extra limbs, warped body, blurry, low quality, watermark, text, subtitles, cartoon, video game, ugly",
   "defaults": {
-    "width": 512,
-    "height": 768,
-    "seconds": 4
+    "width": 576,
+    "height": 1024,
+    "seconds": 6
   }
 }

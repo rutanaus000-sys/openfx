@@ -1,15 +1,30 @@
 {
   "name": "Turn to Stone",
-  "description": "A wave of stone spreads until the subject becomes a statue.",
+  "engine": "ai",
+  "category": "materials",
+  "description": "A wave of cracked stone spreads until the subject is a statue.",
   "tags": [
-    "vfx",
-    "transform"
+    "statue",
+    "stone",
+    "medusa",
+    "petrify",
+    "rock"
   ],
+  "synonyms": [
+    "petrify",
+    "statue",
+    "medusa",
+    "granite",
+    "marble"
+  ],
+  "featured": true,
+  "input": "image",
   "workflow": "workflows/ltx23_i2v_api.json",
-  "prompt": "A wave of grey cracked stone{detail} spreads across the subject from the feet upward, skin and clothes turning into carved granite, small pebbles crumbling off, ending as a still marble statue. Cinematic lighting, static camera.",
+  "prompt": "The subject{detail} is frozen in place as a wave of grey stone creeps across them, starting at the feet and moving steadily upward. Skin, hair and clothing change texture as the wave passes, becoming rough weathered granite with fine cracks and specks of moss, the colors draining into cold grey. Small pebbles and dust crumble off and fall to the ground. By the end the entire subject is a still, solid stone statue with sharp chiseled detail, lit by soft directional light that shows the rough texture. The background stays unchanged. Realistic, cinematic, locked-off camera.",
+  "negative_prompt": "static image, frozen, no motion, morphing face, distorted face, extra limbs, warped body, blurry, low quality, watermark, text, subtitles, cartoon, video game, ugly",
   "defaults": {
-    "width": 512,
-    "height": 768,
-    "seconds": 6
+    "width": 576,
+    "height": 1024,
+    "seconds": 7
   }
 }

@@ -1,15 +1,30 @@
 {
   "name": "Disintegrate",
-  "description": "The subject crumbles into drifting dust and blows away.",
+  "engine": "ai",
+  "category": "destruction",
+  "description": "The subject crumbles into glowing ash that drifts away on the wind.",
   "tags": [
-    "vfx",
-    "viral"
+    "particles",
+    "ash",
+    "dust",
+    "thanos",
+    "vanish"
   ],
+  "synonyms": [
+    "snap",
+    "dust",
+    "fade away",
+    "dissolve",
+    "ash"
+  ],
+  "featured": true,
+  "input": "image",
   "workflow": "workflows/ltx23_i2v_api.json",
-  "prompt": "The subject{detail} slowly disintegrates into thousands of tiny glowing ash particles, starting from the edges and sweeping across the body, the particles drifting away on a gentle wind until nothing remains. Cinematic lighting, sharp detail, static camera.",
+  "prompt": "The subject{detail} stays still and calm as their body begins to disintegrate. Within the first second, fine cracks of glowing orange light appear at the edges of the figure, and small flakes of dark grey ash start to peel away. The disintegration spreads steadily inward and upward, the subject breaking apart into thousands of tiny ash particles and glowing embers that lift off and drift to the right on a gentle wind, swirling as they go. By the end the subject has completely turned to drifting ash and only the empty background remains, with the last particles floating out of frame. The background stays unchanged and sharp. Soft cinematic lighting, shallow depth of field, realistic particle physics, locked-off camera.",
+  "negative_prompt": "static image, frozen, no motion, morphing face, distorted face, extra limbs, warped body, blurry, low quality, watermark, text, subtitles, cartoon, video game, ugly",
   "defaults": {
-    "width": 512,
-    "height": 768,
-    "seconds": 6
+    "width": 576,
+    "height": 1024,
+    "seconds": 7
   }
 }

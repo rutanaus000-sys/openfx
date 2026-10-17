@@ -1,15 +1,30 @@
 {
   "name": "Deep Freeze",
+  "engine": "ai",
+  "category": "materials",
   "description": "Frost creeps in and the subject freezes solid.",
   "tags": [
-    "vfx",
-    "ice"
+    "ice",
+    "frost",
+    "frozen",
+    "cold",
+    "winter"
   ],
+  "synonyms": [
+    "ice",
+    "frozen",
+    "cold",
+    "frost",
+    "freeze"
+  ],
+  "featured": false,
+  "input": "image",
   "workflow": "workflows/ltx23_i2v_api.json",
-  "prompt": "Frost{detail} creeps across the subject, ice crystals growing and spreading, breath turning to mist, the whole figure freezing into clear blue ice with sparkling highlights. Cinematic, static camera.",
+  "prompt": "Delicate white frost crystals{detail} begin to grow across the subject from the edges of the frame, spreading in feathery patterns. The temperature drops: the subject's breath turns to visible white vapor, and a cold blue tint washes over the scene. Ice thickens over the subject's hair, skin and clothes, building into clear glassy ice with trapped bubbles and sparkling highlights, until the whole subject is encased in a block of translucent blue ice. Tiny snowflakes drift through the air. Crisp cold lighting with bright specular highlights, realistic ice, locked-off camera.",
+  "negative_prompt": "static image, frozen, no motion, morphing face, distorted face, extra limbs, warped body, blurry, low quality, watermark, text, subtitles, cartoon, video game, ugly",
   "defaults": {
-    "width": 512,
-    "height": 768,
-    "seconds": 4
+    "width": 576,
+    "height": 1024,
+    "seconds": 6
   }
 }

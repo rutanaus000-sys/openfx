@@ -34,7 +34,12 @@ class Effect:
     negative_prompt: str | None = None
     defaults: dict[str, Any] = field(default_factory=dict)
     extra_inputs: dict[str, Any] = field(default_factory=dict)
+    engine: str = "ai"
+    category: str = "other"
     tags: list[str] = field(default_factory=list)
+    synonyms: list[str] = field(default_factory=list)
+    featured: bool = False
+    input: str = "image"
     preview: str | None = None
 
     def public(self) -> dict[str, Any]:
@@ -43,7 +48,12 @@ class Effect:
             "id": self.id,
             "name": self.name,
             "description": self.description,
+            "engine": self.engine,
+            "category": self.category,
             "tags": self.tags,
+            "synonyms": self.synonyms,
+            "featured": self.featured,
+            "input": self.input,
             "preview": f"/effects/{self.id}/{self.preview}" if self.preview else None,
             "defaults": self.defaults,
         }
@@ -63,7 +73,12 @@ def _load(folder: Path) -> Effect:
         negative_prompt=data.get("negative_prompt"),
         defaults=data.get("defaults", {}),
         extra_inputs=data.get("inputs", {}),
+        engine=data.get("engine", "ai"),
+        category=data.get("category", "other"),
         tags=data.get("tags", []),
+        synonyms=data.get("synonyms", []),
+        featured=data.get("featured", False),
+        input=data.get("input", "image"),
         preview=data.get("preview"),
     )
 

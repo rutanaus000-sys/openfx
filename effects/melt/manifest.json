@@ -1,15 +1,30 @@
 {
   "name": "Melt",
-  "description": "The subject melts into a glossy puddle.",
+  "engine": "ai",
+  "category": "elements",
+  "description": "The subject softens like wax and melts into a glossy puddle.",
   "tags": [
-    "vfx",
-    "surreal"
+    "liquid",
+    "melt",
+    "drip",
+    "surreal",
+    "wax"
   ],
+  "synonyms": [
+    "liquify",
+    "drip",
+    "wax",
+    "puddle",
+    "dali"
+  ],
+  "featured": false,
+  "input": "image",
   "workflow": "workflows/ltx23_i2v_api.json",
-  "prompt": "The subject{detail} begins to melt like warm wax, glossy liquid dripping down and pooling on the ground, the shape slowly collapsing into a shiny puddle. Surreal, cinematic lighting, static camera.",
+  "prompt": "The subject{detail} begins to soften and melt like warm wax. Thick glossy drips run down from the top of the subject, slowly at first and then faster, the shape sagging and losing its form as the material flows downward. The melted material keeps the subject's original colors, swirling together as it pools on the ground into a shiny, reflective puddle that spreads outward. By the end only a glossy colorful puddle remains. The background stays unchanged. Surreal but photorealistic, soft studio lighting with glossy specular highlights, locked-off camera.",
+  "negative_prompt": "static image, frozen, no motion, morphing face, distorted face, extra limbs, warped body, blurry, low quality, watermark, text, subtitles, cartoon, video game, ugly",
   "defaults": {
-    "width": 512,
-    "height": 768,
-    "seconds": 6
+    "width": 576,
+    "height": 1024,
+    "seconds": 7
   }
 }

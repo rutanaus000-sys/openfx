@@ -1,15 +1,29 @@
 {
-  "name": "Hologram Glitch",
-  "description": "The subject flickers into a sci-fi hologram.",
+  "name": "Hologram",
+  "engine": "ai",
+  "category": "scifi",
+  "description": "The subject flickers into a translucent sci-fi hologram.",
   "tags": [
-    "vfx",
-    "sci-fi"
+    "hologram",
+    "sci-fi",
+    "glitch",
+    "projection",
+    "star wars"
   ],
+  "synonyms": [
+    "projection",
+    "holo",
+    "futuristic",
+    "digital ghost"
+  ],
+  "featured": true,
+  "input": "image",
   "workflow": "workflows/ltx23_i2v_api.json",
-  "prompt": "The subject{detail} turns into a translucent blue sci-fi hologram, scan lines rolling across the body, digital glitch flickers and pixel distortion, floating particles of light. Cinematic, static camera.",
+  "prompt": "The subject{detail} flickers and transforms into a glowing translucent blue hologram projected from a disc of light on the floor. Thin horizontal scan lines roll slowly up the figure, the edges shimmer with cyan light, and the body becomes see-through so the background is visible behind it. Every few moments the hologram glitches, briefly splitting into offset copies and pixelated blocks before snapping back into place. Tiny particles of light float upward through the beam. Dark surroundings lit only by the cool blue glow, cinematic sci-fi, locked-off camera.",
+  "negative_prompt": "static image, frozen, no motion, morphing face, distorted face, extra limbs, warped body, blurry, low quality, watermark, text, subtitles, cartoon, video game, ugly",
   "defaults": {
-    "width": 512,
-    "height": 768,
-    "seconds": 4
+    "width": 576,
+    "height": 1024,
+    "seconds": 5
   }
 }
