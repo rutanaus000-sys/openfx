@@ -11,7 +11,7 @@ if not exist .venv (
 
 if "%COMFYUI_DIR%"=="" set COMFYUI_DIR=%USERPROFILE%\ComfyUI
 
-start "Comfy API proxy" .venv\Scripts\comfy-api-proxy.exe --comfyui-base-dir "%COMFYUI_DIR%"
+start "Comfy API proxy" .venv\Scripts\comfy-api-proxy.exe run --comfyui-base-dir "%COMFYUI_DIR%"
 set COMFY_BASE_URL=http://127.0.0.1:8189
 echo OpenFX: http://127.0.0.1:7860
 .venv\Scripts\python.exe -m openfx

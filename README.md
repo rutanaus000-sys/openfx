@@ -50,7 +50,7 @@ You need an NVIDIA GPU with 12 GB+ of VRAM. It's tested on an RTX 5070 (12 GB): 
    ```bash
    python -m venv .venv && . .venv/bin/activate
    pip install -r requirements.txt
-   comfy-api-proxy &                      # serves the v2 API on 127.0.0.1:8189
+   comfy-api-proxy run &                   # serves the v2 API on 127.0.0.1:8189
    COMFY_BASE_URL=http://127.0.0.1:8189 python -m openfx
    ```
 4. Open **http://127.0.0.1:7860**.
