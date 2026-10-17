@@ -1,0 +1,15 @@
+{
+  "name": "Turn to Stone",
+  "description": "A wave of stone spreads until the subject becomes a statue.",
+  "tags": [
+    "vfx",
+    "transform"
+  ],
+  "workflow": "workflows/ltx23_i2v_api.json",
+  "prompt": "A wave of grey cracked stone{detail} spreads across the subject from the feet upward, skin and clothes turning into carved granite, small pebbles crumbling off, ending as a still marble statue. Cinematic lighting, static camera.",
+  "defaults": {
+    "width": 512,
+    "height": 768,
+    "seconds": 4
+  }
+}

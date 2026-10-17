@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenFX</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>OpenFX</h1>
+    <p>One-tap video effects. Open source, open weights, running on your own GPU.</p>
+  </header>
+
+  <main>
+    <section class="step">
+      <h2><span>1</span> Pick a photo</h2>
+      <label class="drop" id="drop">
+        <input type="file" id="file" accept="image/png,image/jpeg,image/webp" hidden>
+        <img id="preview" alt="" hidden>
+        <span id="drop-hint">Drop an image here or click to choose</span>
+      </label>
+    </section>
+
+    <section class="step">
+      <h2><span>2</span> Choose an effect</h2>
+      <div class="grid" id="effects"></div>
+      <input type="text" id="detail" maxlength="300" placeholder="Optional: add a detail, e.g. &quot;with purple sparks&quot;">
+    </section>
+
+    <section class="step">
+      <h2><span>3</span> Make it</h2>
+      <button id="go" disabled>Generate</button>
+      <p id="status" role="status"></p>
+      <div class="result" id="result" hidden>
+        <video id="video" controls loop playsinline></video>
+        <div class="actions">
+          <a id="download" download>Download</a>
+          <button id="copy" type="button">Copy link</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Built with ComfyUI, LTX and the Comfy SDK. Every effect is a workflow file you can fork.
+    <a href="https://github.com/rutanaus000-sys/openfx">Source on GitHub</a> · #OpenSourceHiggsfield
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

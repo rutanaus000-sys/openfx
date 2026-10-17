@@ -1,0 +1,15 @@
+{
+  "name": "Disintegrate",
+  "description": "The subject crumbles into drifting dust and blows away.",
+  "tags": [
+    "vfx",
+    "viral"
+  ],
+  "workflow": "workflows/ltx23_i2v_api.json",
+  "prompt": "The subject{detail} slowly disintegrates into thousands of tiny glowing ash particles, starting from the edges and sweeping across the body, the particles drifting away on a gentle wind until nothing remains. Cinematic lighting, sharp detail, static camera.",
+  "defaults": {
+    "width": 512,
+    "height": 768,
+    "seconds": 4
+  }
+}

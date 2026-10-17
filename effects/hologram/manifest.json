@@ -1,0 +1,15 @@
+{
+  "name": "Hologram Glitch",
+  "description": "The subject flickers into a sci-fi hologram.",
+  "tags": [
+    "vfx",
+    "sci-fi"
+  ],
+  "workflow": "workflows/ltx23_i2v_api.json",
+  "prompt": "The subject{detail} turns into a translucent blue sci-fi hologram, scan lines rolling across the body, digital glitch flickers and pixel distortion, floating particles of light. Cinematic, static camera.",
+  "defaults": {
+    "width": 512,
+    "height": 768,
+    "seconds": 4
+  }
+}

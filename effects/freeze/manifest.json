@@ -1,0 +1,15 @@
+{
+  "name": "Deep Freeze",
+  "description": "Frost creeps in and the subject freezes solid.",
+  "tags": [
+    "vfx",
+    "ice"
+  ],
+  "workflow": "workflows/ltx23_i2v_api.json",
+  "prompt": "Frost{detail} creeps across the subject, ice crystals growing and spreading, breath turning to mist, the whole figure freezing into clear blue ice with sparkling highlights. Cinematic, static camera.",
+  "defaults": {
+    "width": 512,
+    "height": 768,
+    "seconds": 4
+  }
+}

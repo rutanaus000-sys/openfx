@@ -1,0 +1,23 @@
+{
+  "_comment": "Maps OpenFX inputs to [node_id, input_name] in ltx23_i2v_api.json. Verify against the exported workflow.",
+  "image": [
+    "269",
+    "image"
+  ],
+  "prompt": [
+    "320:319",
+    "text"
+  ],
+  "width": [
+    "320:312",
+    "value"
+  ],
+  "height": [
+    "320:299",
+    "value"
+  ],
+  "seconds": [
+    "320:301",
+    "value"
+  ]
+}

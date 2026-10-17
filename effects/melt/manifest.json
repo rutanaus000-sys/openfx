@@ -1,0 +1,15 @@
+{
+  "name": "Melt",
+  "description": "The subject melts into a glossy puddle.",
+  "tags": [
+    "vfx",
+    "surreal"
+  ],
+  "workflow": "workflows/ltx23_i2v_api.json",
+  "prompt": "The subject{detail} begins to melt like warm wax, glossy liquid dripping down and pooling on the ground, the shape slowly collapsing into a shiny puddle. Surreal, cinematic lighting, static camera.",
+  "defaults": {
+    "width": 512,
+    "height": 768,
+    "seconds": 4
+  }
+}

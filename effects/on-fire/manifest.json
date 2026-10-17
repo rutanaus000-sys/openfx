@@ -1,0 +1,15 @@
+{
+  "name": "On Fire",
+  "description": "Flames engulf the subject without harming them.",
+  "tags": [
+    "vfx",
+    "fire"
+  ],
+  "workflow": "workflows/ltx23_i2v_api.json",
+  "prompt": "Bright orange flames{detail} erupt around the subject and race upward, flickering fire and embers swirling through the air, heat shimmer distorting the background, dramatic warm light on the face. Cinematic, static camera.",
+  "defaults": {
+    "width": 512,
+    "height": 768,
+    "seconds": 4
+  }
+}
