@@ -37,7 +37,7 @@ async def generate(
     detail: str | None = Form(None),
     width: int | None = Form(None),
     height: int | None = Form(None),
-    seconds: float | None = Form(None),
+    seconds: int | None = Form(None),
 ) -> dict:
     chosen = effects.get(effect)
     if chosen is None:
